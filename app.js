@@ -7,12 +7,26 @@ function addFriends() {
     if(friend != '') {
         listFriends.push(friend);
 
+        console.log(listFriends)
+
         clean();
+        showList();
     } else {
         alert('Por favor, insira um nome.');
     }
 }
 function clean() {
-    friend = document.querySelector('input');
+    let friend = document.querySelector('input');
     friend.value = '';
+}
+
+function showList() {
+    let ulFriend = document.getElementById('listaAmigos');
+    ulFriend.innerHTML = '';
+
+    for(let friend = 0; friend < listFriends.length; friend++) {
+        let liFriend = document.createElement('li');
+        liFriend.textContent = listFriends[friend];
+        ulFriend.appendChild(liFriend);
+    }
 }
