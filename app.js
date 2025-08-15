@@ -7,8 +7,6 @@ function addFriends() {
     if(friend != '') {
         listFriends.push(friend);
 
-        console.log(listFriends)
-
         clean();
         showList();
     } else {
@@ -19,7 +17,6 @@ function clean() {
     let friend = document.querySelector('input');
     friend.value = '';
 }
-
 function showList() {
     let ulFriend = document.getElementById('listaAmigos');
     ulFriend.innerHTML = '';
@@ -28,5 +25,20 @@ function showList() {
         let liFriend = document.createElement('li');
         liFriend.textContent = listFriends[friend];
         ulFriend.appendChild(liFriend);
+    }
+}
+function drawFriends() {
+    let numberRandom = Math.floor(Math.random() * listFriends.length);
+    let ulDrawFriends = document.getElementById('resultado');
+    ulDrawFriends.innerHTML = '';
+
+    if(listFriends.length > 0) {
+        let liDrawFriends = document.createElement('li');
+        liDrawFriends.textContent = `O amigo sorteado é: ${listFriends[numberRandom]}`;
+        ulDrawFriends.appendChild(liDrawFriends);
+
+        document.getElementById('listaAmigos').innerHTML = '';
+    } else {
+        alert('Por favor, insire um nome antes.');
     }
 }
