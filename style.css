@@ -88,7 +88,8 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    display: flex;
+    width: 608px;
     justify-content: center;
 }
 
@@ -145,9 +146,10 @@ ul {
 /* Botão de sortear título */
 .button-draw {
     display: flex;
+    margin: 3px;
     align-items: center;
     width: 100%;
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
