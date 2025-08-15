@@ -1,5 +1,9 @@
 # Amigo Secreto
 
+![Status](https://img.shields.io/badge/status-%20Finalizado-green)
+![Último commit](https://img.shields.io/github/last-commit/Jeanlerson/Amigo-Secreto)
+![Licença](https://img.shields.io/github/license/Jeanlerson/Amigo-Secreto)
+
 Uma aplicação web simples para sorteio de amigo secreto, construída com HTML, CSS e JavaScript puro.
 
 ---
@@ -39,14 +43,7 @@ Para utilizar, simplesmente abra o arquivo `index.html` no navegador. A interfac
 
 ##  Como executar
 
-1. Clone o repositório:
-
-    ```bash
-    git clone https://github.com/Jeanlerson/Amigo-Secreto.git
-    cd Amigo-Secreto
-    ```
-
-2. Abra o arquivo `index.html` em seu navegador preferido.
+1. Abra o link (https://jeanlerson.github.io/Amigo-Secreto/) em seu navegador preferido.
 
 Pronto! Você já pode adicionar os participantes e iniciar o sorteio.
 
@@ -61,6 +58,7 @@ Pronto! Você já pode adicionar os participantes e iniciar o sorteio.
 
 ##  Possíveis melhorias
 
+- Não sortear alguém que já foi sorteado.
 - Permitir múltiplos sorteios simultâneos.  
 - Criar opção de exportar o resultado.  
 - Adaptar interface para responsividade em dispositivos móveis.  
