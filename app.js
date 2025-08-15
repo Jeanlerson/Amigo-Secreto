@@ -53,4 +53,5 @@ function resetDraw() {
     listFriends.length = 0;
     ulDrawFriends.innerHTML = '';
     ulFriend.innerHTML = '';
+    clean();
 }
