@@ -18,7 +18,7 @@ function addFriends() {
         clean();
         showList();
     } else {
-        alert('Por favor, insira um nome.');
+        alert('Por favor, insira um nome na caixa de texto.');
         clean();
     }
 }
