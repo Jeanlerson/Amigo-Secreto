@@ -22,7 +22,7 @@ Uma aplicação web simples para sorteio de amigo secreto, construída com HTML,
 
 ##  Descrição
 
-Esta aplicação permite adicionar nomes de participantes e sortear aleatoriamente quem será o amigo secreto de cada um, além de possibilitar fazer um novo sorteio. Perfeita para ocasiões festivas de maneira rápida e divertida.
+Esta aplicação permite adicionar nomes de participantes e sortear aleatoriamente quem será o amigo secreto de cada um, além de possibilitar fazer um novo sorteio. Perfeita para ocasiões festivas de maneira rápida e divertida para sorteios.
 
 ---
 
